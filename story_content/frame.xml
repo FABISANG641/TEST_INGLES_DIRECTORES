@@ -6,6 +6,7 @@
     <layout name="npxnabnsnfns00000100001" font="Lato" controllayout="npxnabnsnfns00000100001" colorscheme="npnxnanbnsnfns00000100001" string_table="npnxnanbnsnfns00000100001" />
     <layout name="npnxnanbnsnfns00000100001" font="Lato" controllayout="npnxnanbnsnfns00000100001" colorscheme="npnxnanbnsnfns00000100001" string_table="npnxnanbnsnfns00000100001" />
     <layout name="pxabnsnfns00000100000" font="Lato" controllayout="pxabnsnfns00000100000" colorscheme="npnxnanbnsnfns00000100001" string_table="npnxnanbnsnfns00000100001" />
+    <layout name="npnxnanbnsnfns00000100000" font="Lato" controllayout="npnxnanbnsnfns00000100000" colorscheme="npnxnanbnsnfns00000100001" string_table="npnxnanbnsnfns00000100001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -33,9 +34,9 @@
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
           </optionlist>
-          <option name="time_enabled" value="false">
+          <option name="time_enabled" value="true">
             <options>
-              <option name="time_format" value="none" />
+              <option name="time_format" value="remaining" />
             </options>
           </option>
           <option name="video_enabled" value="false">
@@ -207,6 +208,31 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00000100000">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
       <control name="fullScreenToggle" enabled="false" />
       <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
